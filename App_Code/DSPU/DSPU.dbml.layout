@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DSPU">
+  <DataContextMoniker Name="/DSPUDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6e4922f1-d25a-4cf9-87ca-35a8c50357d1" absoluteBounds="2.125, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DSPUDataContext/DataserverPortalUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70fe3603-c711-4286-b2a3-e78d23bb0555" absoluteBounds="2.14, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8db6b313-d7bd-467c-8bc6-f8c380906bd0" absoluteBounds="5.125, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DSPUDataContext/Portal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38927917-748f-4556-9543-a4350ac9d8a0" absoluteBounds="5.1400000000000006, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="147d0c50-69f5-4a81-bfa2-efd89e892026" absoluteBounds="4.125, 2.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DSPUDataContext/PortalInfoe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="190272b9-72eb-4dc2-952b-a0240aa7cad7" absoluteBounds="4.1400000000000006, 2.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

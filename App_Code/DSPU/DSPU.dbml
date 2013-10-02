@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataserverPortalUserEntities" Class="DSPUDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=WIN-UN1L241MDMF\SQLEXPRESS;Initial Catalog=DataserverPortalUserEntities;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DataserverPortalUserEntitiesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DataserverPortalUsers" Member="DataserverPortalUsers">
+    <Type Name="DataserverPortalUser">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SsoCode" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PortalUri" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PortalName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Portals" Member="Portals">
+    <Type Name="Portal">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PortalName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PortalUri" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PortalInfoes" Member="PortalInfoes">
+    <Type Name="PortalInfoe">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PortalId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumberofWebUsers" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Last90Days" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Last60Days" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Last30Days" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
